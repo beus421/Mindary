@@ -35,11 +35,5 @@ Mindary is a comprehensive directory for mental health resources and services. W
 - `/assets/css/` - Contains all stylesheet files
 - `/assets/img/` - Contains images and graphics used in the website
 
-## License
 
-[Include your license information here]
-
-## Contact
-
-For more information, please contact us at [your contact information].
 
