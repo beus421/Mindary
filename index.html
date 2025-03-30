@@ -4,514 +4,609 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Mindary</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>House of God</title>
-    <link rel="stylesheet" href="./assets/css/styleNancy.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    <header class="mainHeader">
-        <nav class="navbar navbar-expand-lg ">
-            <div class="container text-light">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light secoundColorBg navPadding">
+            <div class="container-fluid navPadding1">
+                <a class="navbar-brand" href="#"><img src="./assets/img/Mindary-logo.png" alt="Mindary-logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
-                    <ul class="navbar-nav mb-2 mb-lg-0 ">
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 navLiAdjustwidth fontFamNav">
                         <li class="nav-item">
-                            <a class="nav-link text-light active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#">About us</a>
+                            <a class="nav-link" href="#">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#">Bible Course</a>
+                            <a class="nav-link" href="#">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#">Prayer Requests</a>
+                            <a class="nav-link active" aria-current="page" href="#">Cases</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#">Contact us</a>
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Content</a>
                         </li>
                     </ul>
-                    <a class="navbar-brand logo" href="#">
-                        <img src="./assets/img/logo.png" class="img-fluid" alt="logo">
-                    </a>
-                    <ul class="list-unstyled m-0 p-0 d-flex icons">
-                        <li class="nav-item icon">
-                            <a class="nav-link active" aria-current="page" href="#">
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                            </a>
-                        </li>
-                        <li class="nav-item icon">
-                            <a class="nav-link" href="#">
-                                <i class="fa-solid fa-heart-crack"></i>
-                            </a>
-                        </li>
-                        <li class="nav-item icon">
-                            <a class="nav-link" href="#">
-                                <i class="fa-solid fa-bag-shopping"></i>
-                            </a>
-                        </li>
-                    </ul>
+                    <button type="button" class="primeColorBg btn btn-secondary removeBdr btnSize btnFont">MAKE
+                        APPOINTMINT</button>
                 </div>
             </div>
         </nav>
     </header>
-    <section class="banner bgImg">
+    <section class="banner">
         <div class="container">
             <div class="row">
-                <div class="col-4 d-flex flex-wrap align-content-center">
-                    <i class="fa-solid fa-arrow-left-long fa-lg fs-1 text-light"></i>
-                </div>
-                <div class="col-4 d-flex flex-column align-content-center" id="midcol">
-                    <div class="content topText">
-                        <p class="text-center text-light">House of Prayer</p>
-                        <h1 class="text-center marcellus-regular fs-1 text-light">Bible is the only truth</h1>
-                    </div>
-                    <div class="row justify-content-center">
-                        <button type="button" class="btn primaryColorBg readMore rounded-0 text-light">Read
-                            more</button>
-                        <button type="button" class="btn secoundaryColorBg joinUs rounded-0 text-light">Join us</button>
-                    </div>
-                </div>
-                <div class="col-4 d-flex flex-wrap align-content-center justify-content-end">
-                    <i class="fa-solid fa-arrow-right-long fa-lg fs-1 text-light"></i>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="sec1">
-        <div class="container pt-5 pb-5">
-            <div class="row">
-                <div class="col-md-6 left">
-                    <img src="./assets/img/abt.png" alt="Repent" class="img-fluid">
-                </div>
-                <div class="col-md-6 right">
-                    <p class="primaryColor fw-bold">About Us</p>
-                    <h2 class="marcellus-regular">We Will Help You Find The
-                        Way to Jesus</h2>
-                    <p class="fs-6 textGray">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip.</p>
-                    <div class="sec1Icons d-flex bible">
-                        <div class="w-50 d-flex  align-items-center">
-                            <img src="./assets/img/bible.png" alt="Bible" class="img-fluid me-3">
-                            <p>Every Sunday Ceremonies</p>
+                <div class="col-md-6">
+                    <div class="bannerContent">
+                        <h1>Finding The Answers To Minding Your Mental Health</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            ut
+                            labore et dolore magna aliqua admi veniam, quis nostrud exercitation ullamco</p>
+                        <div class="bannerDetail">
+                            <button class="btnBanner">Contact Us</button>
+                            <div class="playBtn">
+                                <i class="fa-solid fa-circle-play"></i>
+                                <span>Watch Intro</span>
+                            </div>
                         </div>
-                        <div class="w-50 d-flex christianity align-items-center">
-                            <img src="./assets/img/christianity.png" alt="christianity" class="img-fluid me-3">
-                            <p>Bible Prayers Community</p>
-                        </div>
-                    </div>
-                    <div class="btnRow sec1btns d-flex">
-                        <button type="button" class="primaryColorBg btnz me-2">
-                            Read More
-                            <i class="fa-solid fa-arrow-right" style="color: #fff;"></i>
-                        </button>
-                        <button type="button" class="secoundaryColorBg btnz1 ms-2">
-                            Join Us
-                            <i class="fa-solid fa-arrow-right" style="color: #fff;"></i>
-                        </button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="sec2 position-relative">
-        <div class="container my-5 d-flex flex-column justify-content-center sec2Cont">
-            <div class="row">
-                <div class="col-12">
-                    <p class="primaryColor fw-bold text-center">Bible Courses</p>
-                    <h2 class="marcellus-regular text-center">What We Are Offering</h2>
-                    <p class="textGray text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
-                        gravida.</p>
+    <section class="section2">
+        <div class="container">
+            <div class="row d-flex flex-column align-content-center">
+                <div class="col-6 w-100 d-flex flex-column">
+                    <h2 class="align-text-center">We Have More Than 12 Years Professional Experience in Hypnotherapy and Mental Health Counseling</h2>
+                    <p class="align-text-center">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut
+                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum
+                    </p>
                 </div>
-                <div class="col-3 mt-4">
-                    <img src="./assets/img/sr1.png" alt="monk" class="img-fluid">
-                    <h4 class="marcellus-regular mt-3">Sermons</h4>
-                    <p class="textGray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua.</p>
-                    <a href="#" target="_blank" rel="noopener noreferrer"
-                        class="primaryColor d-flex align-items-center text-decoration-none primaryColor sec2Anch">
-                        Read More
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </a>
-                </div>
-                <div class="col-3 mt-4">
-                    <img src="./assets/img/sr2.png" alt="monk" class="img-fluid">
-                    <h4 class="marcellus-regular mt-3">For Youth</h4>
-                    <p class="textGray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua.</p>
-                    <a href="#" target="_blank" rel="noopener noreferrer"
-                        class="primaryColor d-flex align-items-center text-decoration-none primaryColor sec2Anch">
-                        Read More
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </a>
-                </div>
-                <div class="col-3 mt-4">
-                    <img src="./assets/img/ser3.png" alt="monk" class="img-fluid">
-                    <h4 class="marcellus-regular mt-3">For Adults</h4>
-                    <p class="textGray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua.</p>
-                    <a href="#" target="_blank" rel="noopener noreferrer"
-                        class="primaryColor d-flex align-items-center text-decoration-none primaryColor sec2Anch">
-                        Read More
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </a>
-                </div>
-                <div class="col-3 mt-4">
-                    <img src="./assets/img/ser4.png" alt="monk" class="img-fluid">
-                    <h4 class="marcellus-regular mt-3">For Groups</h4>
-                    <p class="textGray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua.</p>
-                    <a href="#" target="_blank" rel="noopener noreferrer"
-                        class="primaryColor d-flex align-items-center text-decoration-none primaryColor sec2Anch">
-                        Read More
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </a>
-                </div>
-
+                <div class="col-6 w-100">
+                    <div class="row flex-nowrap">
+                        <div class="col-md-4 d-flex p-3 boxSection2 boxSection2-1">
+                            <div class="col-md-5 col-md-4-Custom">
+                                <i class="fa-solid fa-brain brainss"></i>
+                            </div>
+                            <div class="col-md-7 col-md-8-Custom">
+                                <h3>Quality Services</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 boxSection2 boxSection2-2">
+                            <div class="col-md-4 col-md-4-Custom">
+                                <i class="fa-solid fa-people-group peopless"></i>
+                            </div>
+                            <div class="col-md-8 col-md-8-Custom">
+                                <h3 class="textWhite">Professional Team</h3>
+                                <p class="textWhite">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 boxSection2 boxSection2-1">
+                            <div class="col-md-4 col-md-4-Custom">
+                                <i class="fa-solid fa-people-group peopless"></i>
+                            </div>
+                            <div class="col-md-8 col-md-8-Custom">
+                                <h3>Dedicated Support</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
             </div>
         </div>
     </section>
-    <section class="sec3 position-relative">
-        <div class="container my-5 sec3Cont">
+    <section class="section3">
+        <div class="container containerSec3">
             <div class="row">
-                <div class="col-12 mb-5">
-                    <p class="primaryColor fw-bold text-center">Our Sermons</p>
-                    <h2 class="marcellus-regular text-center">Our Upcoming Events</h2>
-                </div>
-                <div class="sec3Line d-flex align-items-center mb-2">
-                    <div class="col-2 d-flex align-items-center justify-content-center">
-                        <span class="marcellus-regular primaryColor sec3Num">21</span>
-                        <div class="w-50 d-flex flex-column">
-                            <span class="textGray">November</span>
-                            <span class="textGray">2023</span>
+                <div class="col-6 position-relative pe-0">
+                    <img src="https://stage.projects-delivery.com/john_new/wp-content/uploads/2022/07/counsel-of-students.jpg"
+                        class="img-fluid position-absolute imgPosition1" alt="Therapy">
+                    <img src="https://stage.projects-delivery.com/john_new/wp-content/uploads/elementor/thumbs/senior-counselor-with-clipboard-talking-to-a-man-during-group-therapy--pshpt5w88fjeal67kzwj1li1apnjh1na66prei76y8.jpg"
+                        class="img-fluid position-absolute imgPosition2" alt="Therapy-2">
+                    <div class="contentDetail d-flex align-items-end justify-content-end h-100">
+                        <div class="sec3Box">
+                            <i class="fa-solid fa-brain brainss ms-10 mb-5 sec3Brain"></i>
+                            <span class="text-light w-50 m-0 text-xl-center">
+                                We Are Trusted More Than 2580 Patients
+                            </span>
                         </div>
-                    </div>
-                    <div class="col-2 justify-content-center">
-                        <img src="./assets/img/e1.png" alt="food" class="img-fluid">
-                    </div>
-                    <div class="col-6">
-                        <h4 class="marcellus-regular">Find Your Way To Jesus Through Bible</h4>
-                        <div class="d-flex align-items-center sec3BtmRow">
-                            <i class="fa-regular fa-clock primaryColor"></i>
-                            <span>04:00</span>
-                            <i class="fa-regular fa-user primaryColor"></i>
-                            <span>Name Here</span>
-                        </div>
-                    </div>
-                    <div class="col-2 h-50">
-                        <button type="button" class="primaryColorBg sec3Btnz position-relative">
-                            Read More
-                            <i class="fa-solid fa-arrow-right" style="color: #fff;"></i>
-                        </button>
                     </div>
                 </div>
-                <div class="sec3Line d-flex align-items-center mb-2 sec3LineBdrTp">
-                    <div class="col-2 d-flex align-items-center justify-content-center">
-                        <span class="marcellus-regular primaryColor sec3Num">21</span>
-                        <div class="w-50 d-flex flex-column">
-                            <span class="textGray">November</span>
-                            <span class="textGray">2023</span>
+                <div class="col-6 sec3ColMargin">
+                    <h5 class="primeColor">About Mindary</h5>
+                    <h2 class="secoundColor">A Comprehensive Directory For Your Mental Health</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris</p>
+                    <div class="col-6 w-100 colLineSen">
+                        <div class="col-1 line1">
+                            <div class="vl"></div>
+                        </div>
+                        <div class="col-11 sentences">
+                            <!-- <div class="col"></div>
+                            <div class="col"></div> -->
+                            <p>We provide all aspects of medical practice for your whole family, including general
+                                check-ups or assisting you with specific injuries</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
                         </div>
                     </div>
-                    <div class="col-2 justify-content-center">
-                        <img src="./assets/img/e1.png" alt="food" class="img-fluid">
-                    </div>
-                    <div class="col-6">
-                        <h4 class="marcellus-regular">Find Your Way To Jesus Through Bible</h4>
-                        <div class="d-flex align-items-center sec3BtmRow">
-                            <i class="fa-regular fa-clock primaryColor"></i>
-                            <span>04:00</span>
-                            <i class="fa-regular fa-user primaryColor"></i>
-                            <span>Name Here</span>
+                    <div class="col-6 w-100">
+                        <div class="col-3 w-100 colMod">
+                            <i class="fa-solid fa-check primeColor"></i>
+                            <p class="pMod">24/7 Phone counseling services for clients</p>
                         </div>
-                    </div>
-                    <div class="col-2 h-50">
-                        <button type="button" class="primaryColorBg sec3Btnz position-relative">
-                            Read More
-                            <i class="fa-solid fa-arrow-right" style="color: #fff;"></i>
-                        </button>
-                    </div>
-                </div>
-                <div class="sec3Line d-flex align-items-center mb-2 sec3LineBdrTp">
-                    <div class="col-2 d-flex align-items-center justify-content-center">
-                        <span class="marcellus-regular primaryColor sec3Num">21</span>
-                        <div class="w-50 d-flex flex-column">
-                            <span class="textGray">November</span>
-                            <span class="textGray">2023</span>
+                        <div class="col-3 w-100 colMod">
+                            <i class="fa-solid fa-check primeColor"></i>
+                            <p class="pMod">Really know the true needs and expectations of clients</p>
                         </div>
-                    </div>
-                    <div class="col-2 justify-content-center">
-                        <img src="./assets/img/e1.png" alt="food" class="img-fluid">
-                    </div>
-                    <div class="col-6">
-                        <h4 class="marcellus-regular">Find Your Way To Jesus Through Bible</h4>
-                        <div class="d-flex align-items-center sec3BtmRow">
-                            <i class="fa-regular fa-clock primaryColor"></i>
-                            <span>04:00</span>
-                            <i class="fa-regular fa-user primaryColor"></i>
-                            <span>Name Here</span>
+                        <div class="col-3 w-100 colMod">
+                            <i class="fa-solid fa-check primeColor"></i>
+                            <p class="pMod">To assist the individual in recovering from the crisis & problems</p>
                         </div>
-                    </div>
-                    <div class="col-2 h-50">
-                        <button type="button" class="primaryColorBg sec3Btnz position-relative">
-                            Read More
-                            <i class="fa-solid fa-arrow-right" style="color: #fff;"></i>
-                        </button>
-                    </div>
-                </div>
-                <div class="sec3Line d-flex align-items-center mb-2 sec3LineBdrTp">
-                    <div class="col-2 d-flex align-items-center justify-content-center">
-                        <span class="marcellus-regular primaryColor sec3Num">21</span>
-                        <div class="w-50 d-flex flex-column">
-                            <span class="textGray">November</span>
-                            <span class="textGray">2023</span>
+                        <div class="col-3 w-100">
+                            <button type="submit" class="btn btn-primary1">Submit</button>
                         </div>
-                    </div>
-                    <div class="col-2 justify-content-center">
-                        <img src="./assets/img/e1.png" alt="food" class="img-fluid">
-                    </div>
-                    <div class="col-6">
-                        <h4 class="marcellus-regular">Find Your Way To Jesus Through Bible</h4>
-                        <div class="d-flex align-items-center sec3BtmRow">
-                            <i class="fa-regular fa-clock primaryColor"></i>
-                            <span>04:00</span>
-                            <i class="fa-regular fa-user primaryColor"></i>
-                            <span>Name Here</span>
-                        </div>
-                    </div>
-                    <div class="col-2 h-50">
-                        <button type="button" class="primaryColorBg sec3Btnz position-relative">
-                            Read More
-                            <i class="fa-solid fa-arrow-right" style="color: #fff;"></i>
-                        </button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="sec4 position-relative d-flex">
-        <div class="container my-5 sec4Cont">
+    <section class="section4">
+        <div class="container sec4contSize">
             <div class="row">
-                <div class="col-12 mb-5">
-                    <p class="primaryColor fw-bold text-center">Our Charity</p>
-                    <h2 class="marcellus-regular text-center">Active Participation</h2>
-                    <p class="textGray text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
-                        gravida.</p>
+                <div class="col-6 w-100 sec4ColRow1">
+                    <h2 class="align-text-center primeColor playfair-display-h">What We Offer</h2>
+                    <h5 class="align-text-center text-light playfair-display-h5">Our Psychology Services</h5>
+                    <p class="align-text-center text-light">Lorem ipsum dolor sit amet, consectetur adipiscin elit, sed
+                        do
+                        eiusmod tempor incididunt ut labore dolore magna aliqua</p>
                 </div>
-                <div class="col-4 position-relative sec4col4Bg d-flex flex-column justify-content-end">
-                    <div class="se4Col4Mod">
-                        <h2 class="marcellus-regular text-light">Good Deeds are
-                            Seen in Heaven</h2>
-                        <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <p class="fw-bold text-light">Christopher Lamb</p>
+                <div class="col-6 w-100">
+                    <div class="row flex-nowrap">
+                        <div class="col-4 sec4Box1 flex-column sec4MarginAdjust">
+                            <div class="col sec4Box sec4MarginAdjust sec4ImgMargin">
+                            </div>
+                        </div>
+                        <div class="col-4 sec4Box1 flex-column sec4MarginAdjust">
+                            <i class="fa-solid fa-temperature-arrow-down sec4LogoSize primeColor"></i>
+                            <h3 class="text-dark  ">Stress Mangement</h3>
+                            <p>Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempor incidiunt ut
+                                labore
+                            </p>
+                            <a href="#" class="primeColor">Read More
+                                <i class="fa-solid fa-arrow-right "></i>
+                            </a>
+                        </div>
+                        <div class="col-4 sec4Box1 flex-column sec4MarginAdjust">
+                            <i class="fa-solid fa-temperature-arrow-down sec4LogoSize primeColor"></i>
+                            <h3 class="text-dark  ">Stress Mangement</h3>
+                            <p>Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempor incidiunt ut
+                                labore
+                            </p>
+                            <a href="#" class="primeColor">Read More
+                                <i class="fa-solid fa-arrow-right "></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row flex-nowrap">
+                        <div class="col-4 sec4Box1 flex-column sec4MarginAdjust">
+                            <i class="fa-solid fa-temperature-arrow-down sec4LogoSize primeColor"></i>
+                            <h3 class="text-dark  ">Stress Mangement</h3>
+                            <p>Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempor incidiunt ut
+                                labore
+                            </p>
+                            <a href="#" class="primeColor">Read More
+                                <i class="fa-solid fa-arrow-right "></i>
+                            </a>
+                        </div>
+                        <div class="col-4 sec4Box1 flex-column sec4MarginAdjust">
+                            <i class="fa-solid fa-temperature-arrow-down sec4LogoSize primeColor"></i>
+                            <h3 class="text-dark  ">Stress Mangement</h3>
+                            <p>Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempor incidiunt ut
+                                labore
+                            </p>
+                            <a href="#" class="primeColor">Read More
+                                <i class="fa-solid fa-arrow-right "></i>
+                            </a>
+                        </div>
+                        <div class="col-4 sec4Box1 flex-column sec4MarginAdjust fourthColorBg">
+                            <i class="fa-solid fa-temperature-arrow-down sec4LogoSize primeColor"></i>
+                            <h3 class="text-light">Stress Mangement</h3>
+                            <p class="text-light">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod
+                                tempor incidiunt ut
+                                labore
+                            </p>
+                            <a href="#" class="primeColor">Read More
+                                <i class="fa-solid fa-arrow-right "></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-8">
+                
+            </div>
+        </div>
+    </section>
+    <section class="section5">
+        <div class="container contSec5">
+            <div class="row sec5Row">
+                <div class="col-6 sec5ColLeft">
+                    <div class="col-4 w-100">
+                        <h5 class="primeColor">Why Choose Us</h5>
+                        <h2 class="secoundColor">The Best Theraphy For Your Mental Satisfactions</h2>
+                        <p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                            ullamco laboris</p>
+                    </div>
+                    <div class="col-4 w-100">
+                        <div class="col-3 w-100">
+                            <div class="col-12 w-100 sec5ColLeftRow">
+                                <span>Quality Therapy Services</span>
+                                <span>82%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="bar primeColor" style="width:82%">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 w-100">
+                            <div class="col-12 w-100 sec5ColLeftRow">
+                                <span>Flexible Time</span>
+                                <span>92%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="bar1 primeColor" style="width:92%">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 w-100">
+                            <div class="col-12 w-100 sec5ColLeftRow">
+                                <span>Best Conclusion</span>
+                                <span>86%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="bar primeColor" style="width:86%">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 w-100">
+                            <div class="col-12 w-100 sec5ColLeftRow">
+                                <span>Professional Psychologist</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="bar1 primeColor" style="width:90%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 w-100">
+                        <div class="row sec5LastCol">
+                            <div class="col-6">
+                                <div class="sec5LastRow">
+                                    <i class="fa-solid fa-check primeColor"></i>
+                                    <span class="sec5LastRowMargin">24/7 Phone counseling services for clients</span>
+                                </div>
+                                <div class="sec5LastRow">
+                                    <i class="fa-solid fa-check primeColor"></i>
+                                    <span class="sec5LastRowMargin">24/7 Phone counseling services for clients</span>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="sec5LastRow">
+                                    <i class="fa-solid fa-check primeColor"></i>
+                                    <span class="sec5LastRowMargin">24/7 Phone counseling services for clients</span>
+                                </div>
+                                <div class="sec5LastRow">
+                                    <i class="fa-solid fa-check primeColor"></i>
+                                    <span class="sec5LastRowMargin">24/7 Phone counseling services for clients</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>     
+                </div>
+                <div class="col-6 sec5ColRight">
+                    <div class="col-12 secoundColorBg text-light sec5ColRightBox">
+                        <h4 class="playfair-display-h4">Working Hours</h4>
+                        <hr>
+                        <div class="col-3 w-100">
+                            <i class="fa-solid fa-clock color primeColor"></i>
+                            <span>Mon - Thurs : 9.00 A.M - 5.00 P.M</span>
+                        </div>
+                        <div class="col-3 w-100">
+                            <i class="fa-solid fa-clock primeColor"></i>
+                            <span>Fri - Sun : 9.00 A.M - 1.00 P.M</span>
+                        </div>
+                        <hr>
+                        <div class="col-3 w-100">
+                            <i class="fa-solid fa-phone-volume primeColor"></i>
+                            <span class="fs-5">(+021) 2336 278</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section6">
+        <div class="container-fluid sec6Cont">
+            <div class="row sec6Row">
+                <div class="col-md-12 sec6RowCol">
+                    <h5 class="primeColor mb-5">Best Psychology and Mental Health Counseling</h5>
+                    <h2 class="text-light">Trust Us To Be There To Help All and Make Things Well Again</h2>
+                    <div class="row sec6Row2">
+                        <div class="col-3 sec6Row2Col">
+                            <i class="fa-solid fa-people-roof primeColor sec6IconFs50"></i>
+                            <div class="col-md-12 sec6Row2ColCol">
+                                <span class="fs-3 text-light">1,134</span>
+                                <i class="fa-solid fa-plus primeColor fs-5"></i>
+                            </div>
+                            <h3 class="text-light">Happy Clients</h3>
+                        </div>
+                        <div class="col-3 sec6Row2Col">
+                            <i class="fa-solid fa-people-roof primeColor sec6IconFs50"></i>
+                            <div class="col-md-12 sec6Row2ColCol">
+                                <span class="fs-3 text-light">1,134</span>
+                                <i class="fa-solid fa-plus primeColor fs-5"></i>
+                            </div>
+                            <h3 class="text-light">Happy Clients</h3>
+                        </div>
+                        <div class="col-3 sec6Row2Col">
+                            <i class="fa-solid fa-people-roof primeColor sec6IconFs50"></i>
+                            <div class="col-md-12 sec6Row2ColCol">
+                                <span class="fs-3 text-light">1,134</span>
+                                <i class="fa-solid fa-plus primeColor fs-5"></i>
+                            </div>
+                            <h3 class="text-light">Happy Clients</h3>
+                        </div>
+                        <div class="col-3 sec6Row2Col">
+                            <i class="fa-solid fa-people-roof primeColor sec6IconFs50"></i>
+                            <div class="col-md-12 sec6Row2ColCol">
+                                <span class="fs-3 text-light">1,134</span>
+                                <i class="fa-solid fa-plus primeColor fs-5"></i>
+                            </div>
+                            <h3 class="text-light">Happy Clients</h3>
+                        </div>
+                        <img src="https://img.freepik.com/free-photo/people-meeting-community-center_23-2149155368.jpg?w=1380&t=st=1711397145~exp=1711397745~hmac=e34e911d263ade06b910fdf7f7f27baf0c67785c0b98157998f3508913179738"
+                            alt="Therapy" class="mt-5">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section7">
+        <div class="container sec7Cont pb-lg-5">
+            <div class="row sec7Row">
+                <div class="col-md-12 sec7RowCol">
+                    <h5 class="mb-4">Cases Studies</h5>
+                    <h2 class="fs-2 mb-4">Our Successfully Completed Cases</h2>
+                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua</p>
+                    <div class="row mt-lg-5">
+                        <div class="col-md-4 sec7Box">
+                            <img src="https://stage.projects-delivery.com/john_new/wp-content/uploads/2022/07/therapy-session-in-the-AK6AHJU.jpg"
+                                alt="Happy" class="sec7BoxPics">
+                        </div>
+                        <div class="col-md-4 sec7Box">
+                            <img src="https://stage.projects-delivery.com/john_new/wp-content/uploads/2022/07/therapy-session-in-the-AK6AHJU.jpg"
+                                alt="Happy" class="sec7BoxPics">
+                        </div>
+                        <div class="col-md-4 sec7Box">
+                            <img src="https://stage.projects-delivery.com/john_new/wp-content/uploads/2022/07/therapy-session-in-the-AK6AHJU.jpg"
+                                alt="Happy" class="sec7BoxPics">
+                        </div>
+                    </div>
+                    <div class="row justify-content-center width90 m-5">
+                        <div class="col-md-6 align-content-center">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        </div>
+                        <div class="col-md-6 d-flex align-content-center justify-content-center">
+                            <div class="col-md-4 d-flex flex-wrap justify-content-end align-content-center">
+                                <button class="custom-btn btn-1">View All Cases</button>
+                            </div>
+                            <div class="col-md-4 d-flex flex-wrap justify-content-center align-content-center">
+                                <i class="fa-solid fa-phone fs-5"></i>
+                            </div>
+                            <div class="col-md-4 d-flex flex-wrap flex-column justify-content-center">
+                                <h2>(+021) 2336 278</h2>
+                                <span class="fs-6">Call 24HR / 7Days</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section8 d-flex align-items-center">
+        <div class="container sec8Cont">
+            <div class="row">
+                <div class="col-12 d-flex flex-column align-items-center flex-wrap">
+                    <h2 class="mb-4 text-light playfair-display-sec9">We Provide Essential Services For Your Mental
+                        Health</h2>
+                    <p class="mb-4 text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua</p>
+                    <button class="custom-btn btn-1 mb-4">Contact Us</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section9">
+        <div class="container sec9Cont">
+            <div class="row">
+                <div class="col d-flex flex-column justify-content-center align-items-center">
+                    <h5 class="primeColor">Our Blog</h5>
+                    <h2 class="thirdColor playfair-display-sec9">Latest News and Articles</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod enim tempor incididunt ut
+                        labore et dolore magna aliqua</p>
                     <div class="row">
-                        <div class="col-6 d-flex flex-column justify-content-center sec4Col6BgCol my-2">
-                            <p class="primaryColor fw-bold">Reconstruction</p>
-                            <h2 class="marcellus-regular">All donations are invested in the reconstruction of our Temple
-                            </h2>
-                            <p class="textGray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua..</p>
-                            <button type="button" class="primaryColorBg sec4Btnz position-relative">
-                                Read More
-                                <i class="fa-solid fa-arrow-right" style="color: #fff;"></i>
-                            </button>
+                        <div class="col-md-4 d-flex flex-column sec9col">
+                            <img src="https://stage.projects-delivery.com/john_new/wp-content/uploads/2022/07/sad-girl-in-circle-e1625973762726.jpg"
+                                alt="child" class="sec7BoxPics picWidth">
+                            <a href="http://google.com" class="link1 mt-4">Depression</a>
+                            <a href="http://google.com" class="thirdColor link2 playfair-display-sec9 my-2">7 Depression
+                                Affects Children’s Development</a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna...</p>
+                            <a href="#" class="primeColor">Read More
+                                <i class="fa-solid fa-arrow-right "></i>
+                            </a>
                         </div>
-                        <div class="col-6">
-                            <img src="./assets/img/g4.png" alt="" class="img-fluid">
+                        <div class="col-md-4 d-flex flex-column sec9col">
+                            <img src="https://stage.projects-delivery.com/john_new/wp-content/uploads/2022/07/sad-girl-in-circle-e1625973762726.jpg"
+                                alt="child" class="sec7BoxPics picWidth">
+                            <a href="http://google.com" class="link1 mt-4">Depression</a>
+                            <a href="http://google.com" class="thirdColor link2 playfair-display-sec9 my-2">7 Depression
+                                Affects Children’s Development</a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna...</p>
+                            <a href="#" class="primeColor">Read More
+                                <i class="fa-solid fa-arrow-right "></i>
+                            </a>
                         </div>
-                        <div class="col-6">
-                            <img src="./assets/img/g2.png" alt="" class="img-fluid">
-                        </div>
-                        <div class="col-6 d-flex flex-column justify-content-center sec4Col6BgCol my-2">
-                            <p class="primaryColor fw-bold">Reconstruction</p>
-                            <h2 class="marcellus-regular">All donations are invested in the reconstruction of our Temple
-                            </h2>
-                            <p class="textGray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua..</p>
-                            <button type="button" class="primaryColorBg sec4Btnz position-relative">
-                                Read More
-                                <i class="fa-solid fa-arrow-right" style="color: #fff;"></i>
-                            </button>
+                        <div class="col-md-4 d-flex flex-column sec9col">
+                            <img src="https://stage.projects-delivery.com/john_new/wp-content/uploads/2022/07/sad-girl-in-circle-e1625973762726.jpg"
+                                alt="child" class="sec7BoxPics picWidth">
+                            <a href="http://google.com" class="link1 mt-4">Depression</a>
+                            <a href="http://google.com" class="thirdColor link2 playfair-display-sec9 my-2">7 Depression
+                                Affects Children’s Development</a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna...</p>
+                            <a href="#" class="primeColor">Read More
+                                <i class="fa-solid fa-arrow-right "></i>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="sec5 position-relative">
-        <div class="container sec5Cont d-flex align-items-center justify-content-center">
-            <div class="row">
-                <div class="col-12 d-flex flex-column align-items-center">
-                    <p class="primaryColor fw-bold text-center fs-5">Join Us Now</p>
-                    <h2 class="marcellus-regular text-center text-light mt-5">Don't wait for the right moment, discover
-                        God now</h2>
-                    <button type="button" class="secoundaryColorBg sec5Btnz position-relative mt-5">
-                        Join Us
-                        <i class="fa-solid fa-arrow-right" style="color: #fff;"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="sec6 position-relative">
-        <div class="container sec6Cont">
-            <div class="row align-items-center">
-                <div class="col-9 sec6Col9">
-                    <p class="primaryColor fw-bold">Our Blogs & Articles</p>
-                    <h2 class="marcellus-regular">Watch videos of our ceremonies and Join our Bible family</h2>
-                </div>
-                <div class="col-3 d-flex justify-content-center">
-                    <button type="button" class="primaryColorBg sec6Btnz position-relative">
-                        View More
-                        <i class="fa-solid fa-arrow-right" style="color: #fff;"></i>
-                    </button>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-6">
-                    <img src="./assets/img/b1.png" alt="Prayers" class="img-fluid">
-                </div>
-                <div class="col-3">
-                    <img src="./assets/img/b2.png" alt="preacher" class="img-fluid mb-1">
-                    <img src="./assets/img/b3.png" alt="church" class="img-fluid">
-                </div>
-                <div class="col-3 d-flex flex-column align-items-center">
-                    <div class="w-100 h-50">
-                        <h5 class="marcellus-regular">Find Your Way to Christ Sunday Preaching by Patrick Stones</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt .
-                        </p>
-                        <span class="primaryColor me-3">Nov 15,2023</span>
-                        <i class="fa-regular fa-clock primaryColor"></i>
-                        <span>04:00</span>
+    <footer>
+        <div class="sectionFooter">
+            <div class="container">
+                <div class="row rowPosition">
+                    <div class="col-3 colFooterBox">
+                        <div class="col-6 w-100">
+                            <img src="./assets/img/Mindary-logo.png" alt="Mindary-logo">
+                            <p class="textWhite">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+                        </div>
+                        <div class="col-6 w-100">
+                            <div class="col-4 w-100 colFooterFlex primeColor">
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                <p class="textWhite">Jl. Raya Kuta No.70, Kuta</p>
+                            </div>
+                            <div class="col-4 w-100 colFooterFlex">
+                                <i class="fa fa-envelope primeColor" aria-hidden="true"></i>
+                                <p class="textWhite">support@domain.com</p>
+                            </div>
+                            <div class="col-4 w-100 colFooterFlex">
+                                <i class="fa fa-phone primeColor" aria-hidden="true"></i>
+                                <p class="textWhite">(+021) 2336 278</p>
+                            </div>
+                        </div>                       
                     </div>
-                    <div class="w-100 h-50">
-                        <h5 class="marcellus-regular">Find Your Way to Christ Sunday Preaching by Patrick Stones</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt .
-                        </p>
-                        <span class="primaryColor me-3">Nov 15,2023</span>
-                        <i class="fa-regular fa-clock primaryColor"></i>
-                        <span>04:00</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="sec7">
-        <div class="container sec7cont mt-5">
-            <div class="row">
-                <div class="col-6">
-                    <img src="./assets/img/books.png" alt="books" class="img-fluid">
-                </div>
-                <div class="col-6 d-flex flex-column justify-content-center">
-                    <p class="primaryColor fw-bold">Our Library</p>
-                    <h2 class="marcellus-regular">Jesus Loves Your Bestseller Church Books</h2>
-                    <p class="fs-6 textGray">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-                    <div>
-                        <button type="button" class="primaryColorBg sec7Btnz1 position-relative me-3">
-                            View More
-                            <i class="fa-solid fa-arrow-right" style="color: #fff;"></i>
-                        </button>
-                        <button type="button" class="secoundaryColorBg sec7Btnz2 position-relative">
-                            View More
-                            <i class="fa-solid fa-arrow-right" style="color: #fff;"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>  
-        </div>
-    </section>
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-2 px-0">
-                    <img src="./assets/img/g1.png" alt="door" class="img-fluid">
-                </div>
-                <div class="col-2 px-0 d-flex">
-                    <img src="./assets/img/g2.png" alt="crying" class="img-fluid">
-                </div>
-                <div class="col-2 px-0 d-flex">
-                    <img src="./assets/img/g3.png" alt="book" class="img-fluid">
-                </div>
-                <div class="col-2 px-0 d-flex">
-                    <img src="./assets/img/g4.png" alt="saviour" class="img-fluid">
-                </div>
-                <div class="col-2 px-0 d-flex">
-                    <img src="./assets/img/g5.png" alt="knight" class="img-fluid">
-                </div>
-                <div class="col-2 px-0">
-                    <img src="./assets/img/g6.png" alt="light" class="img-fluid">
-                </div> 
-            </div>
-        </div>
-    </section>
-    <footer class="mainFooter">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="footerWidgets">
-                        <img src="./assets/img/logo.png" class="img-fluid " alt="">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. </p>
-                    </div>
-                </div>
-                <div class="col-md-2">
-                    <div class="footerWidgets">
-                        <h4>About Us</h4>
-                        <ul class="list-unstyled p-0 m-0">
-                            <li><a href="#" class="text-decoration-none ">Services</a></li>
-                            <li><a href="#" class="text-decoration-none ">Our Church</a></li>
-                            <li><a href="#" class="text-decoration-none ">Sermons</a></li>
-                            <li><a href="#" class="text-decoration-none ">Volunteers</a></li>
-                            <li><a href="#" class="text-decoration-none ">Events</a></li>
+                    <div class="col-3 footerNavColFlex">
+                        <h3 class="textWhite">Other Pages</h3>
+                        <ul class="nav flex-column">
+                            <li class="nav-item footerNavFlex">
+                                <i class="fa fa-chevron-right primeColor" aria-hidden="true"></i>
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item footerNavFlex">
+                                <i class="fa fa-chevron-right primeColor" aria-hidden="true"></i>
+                                <a class="nav-link" href="#">About us</a>
+                            </li>
+                            <li class="nav-item footerNavFlex">
+                                <i class="fa fa-chevron-right primeColor" aria-hidden="true"></i>
+                                <a class="nav-link" href="#">Services</a>
+                            </li>
+                            <li class="nav-item footerNavFlex">
+                                <i class="fa fa-chevron-right primeColor" aria-hidden="true"></i>
+                                <a class="nav-link" href="#">Cases</a>
+                            </li>
+                            <li class="nav-item footerNavFlex">
+                                <i class="fa fa-chevron-right primeColor" aria-hidden="true"></i>
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
                         </ul>
                     </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="footerWidgets">
-                        <h4>Contact Info</h4>
-                        <p>Our location:</p>
-                        <p>975 Liberty Ave, Union, NJ 07083, USA</p>
-                        <p>Phones:</p>
-                        <p>+49078-039-23-11</p>
-                        <p> +49078-028-55-60</p>
+                    <div class="col-3 footerNavColFlex">
+                        <h3 class="textWhite">Quick Links</h3>
+                        <ul class="nav flex-column">
+                            <li class="nav-item footerNavFlex">
+                                <i class="fa fa-chevron-right primeColor" aria-hidden="true"></i>
+                                <a class="nav-link active" aria-current="page" href="#">Privacy Policy</a>
+                            </li>
+                            <li class="nav-item footerNavFlex">
+                                <i class="fa fa-chevron-right primeColor" aria-hidden="true"></i>
+                                <a class="nav-link" href="#">Terms Of Service</a>
+                            </li>
+                            <li class="nav-item footerNavFlex">
+                                <i class="fa fa-chevron-right primeColor" aria-hidden="true"></i>
+                                <a class="nav-link" href="#">Desclaimer</a>
+                            </li>
+                            <li class="nav-item footerNavFlex">
+                                <i class="fa fa-chevron-right primeColor" aria-hidden="true"></i>
+                                <a class="nav-link" href="#">Credits</a>
+                            </li>
+                            <li class="nav-item footerNavFlex">
+                                <i class="fa fa-chevron-right primeColor" aria-hidden="true"></i>
+                                <a class="nav-link" href="#">FAQ</a>
+                            </li>
+                        </ul>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="footerWidgets">
-                        <h4>NewsLetter</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-                        <div class="newsLetter d-flex ">
-                            <div class="newsLetterInput">
-                                <input type="text" name="email" placeholder="Enter Your Email">
+                    <div class="col-3 footerNavColFlex1">
+                        <h3 class="textWhite lastCol">Newsletter</h3>
+                        <form class="formSize">
+                            <div class="mb-3">
+                                <input type="email" class="form-control inputSize" id="exampleInputEmail1"
+                                    placeholder="Your Email Address" aria-describedby="emailHelp">
                             </div>
-                            <div class="newsLetterBtn">
-                                <button type="submit" class="btnPrimary">Subscribe Now</button>
-                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                        <span class="textWhite formSize1">Get the latest news & updates</span>
+                        <div class="col iconRow">
+                            <i class="fa-brands fa-square-facebook iconCustomization"></i>
+                            <i class="fa-brands fa-square-twitter iconCustomization"></i>
+                            <i class="fa-brands fa-square-instagram iconCustomization"></i>
+                            <i class="fa-brands fa-linkedin iconCustomization"></i>
                         </div>
                     </div>
                 </div>
+                <hr class="line">
+                <div class="row flex-nowrap lstContainer">
+                        <div class="col-6">
+                            <p class="textWhite footerBtmLine1">Terms & Service Privacy Policy</p>
+                        </div>
+                        <div class="col-6 footerBtmLine">
+                            <p class="textWhite">Copyright © 2022 John Leadership All rights reserved.</p>
+                        </div>
+                </div>
             </div>
         </div>
-        <p class="text-center copyRight">Copyright ©2023 House of Prayer & Evangelism. All rights reserved.</p>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         crossorigin="anonymous"></script>
 </body>
 

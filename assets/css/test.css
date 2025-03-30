@@ -1,0 +1,20 @@
+.elementor-5 .elementor-element.elementor-element-46d7f286 {
+    width: auto;
+    max-width: auto;
+}
+.elementor-widget:not(:last-child).elementor-absolute, .elementor-widget:not(:last-child).elementor-widget__width-auto, .elementor-widget:not(:last-child).elementor-widget__width-initial{
+    margin-bottom: 0;
+}
+.elementor-widget-wrap .elementor-element.elementor-widget__width-auto, .elementor-widget-wrap .elementor-element.elementor-widget__width-initial {
+    max-width: 100%;
+}
+.animated.animated-slow {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+}
+.fadeInRight {
+    animation-name: fadeInRight;
+}
+.elementor-widget {
+    position: relative;
+}
