@@ -1,1 +1,1 @@
-![alt text](mindary-1.png)
+![alt text](https://github.com/beus421/Mindary/blob/main/mindary.png)
